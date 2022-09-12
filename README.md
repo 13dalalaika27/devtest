@@ -26,6 +26,9 @@ cat path_to_the_directory/nginx.log  | awk '{print $4}' | uniq -c | sort -rn | h
 cat path_to_the_directory/nginx.log | cut -d '"' -f3 | cut -d ' ' -f2 | sort | uniq -c | sort -rn > result.txt
 ```
 
+:arrow_right: [Results you can see here](https://github.com/13dalalaika27/devtest) :arrow_left: 
+(According to the numbering of the files named 1 to 4 with the results)
+
 ### Addition :relaxed:
 If you need to convert existing txt files, you can use the following code:
 
